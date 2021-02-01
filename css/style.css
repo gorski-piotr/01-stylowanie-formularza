@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+body {
+    background-color: #213b50;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+form input,
+form select,
+form textarea {
+    background-color: #2b4a64;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    background-color: #4e708c;
+    border-color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #1ac056;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color:#46e881;
+}
+
+label {
+    display: block;
+}
+
+label[for="male"],
+label[for="female"] {
+    display: inline;
+    margin-left: 5px;
+}
+
+label[for="agreement"] {
+    display: inline;
+}
+
+p {
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select[name="city"] {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+textarea[name="message"] {
+    width: 300px;
+    height: 100px;
+}
